@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjectForJava.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjectForJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/LogProject/LogProject.iml" filepath="$PROJECT_DIR$/LogProject/LogProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc_collection_map_demo/imooc_collection_map_demo.iml" filepath="$PROJECT_DIR$/imooc_collection_map_demo/imooc_collection_map_demo.iml" />
     </modules>
   </component>
 </project>

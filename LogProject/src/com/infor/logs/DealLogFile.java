@@ -49,6 +49,7 @@ public class DealLogFile {
         while (m.find()) {
             System.out.println(m.group(0));
         }
+
     }
 
 }
