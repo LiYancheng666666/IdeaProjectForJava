@@ -19,12 +19,15 @@ Template text内容如下:
 
 
 public class Course {
+
+    public String id;
+    public String name;
+    public Course() {
+
+    }
     public Course(String id, String name) {
         this.id = id;
         this.name = name;
     }
-
-    public String id;
-    public String name;
 
 }

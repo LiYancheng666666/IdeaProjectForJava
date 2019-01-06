@@ -8,6 +8,7 @@ package com.imooc.collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListTest {
@@ -53,12 +54,67 @@ public class ListTest {
         Course temp6 = (Course) coursesToSelect.get(3);
         System.out.println("添加了两门课程: " + temp5.id +":" +
                 temp5.name +";" + temp6.id +":" +temp6.name);
+    }
 
+    public void testGet(){
+        int size = coursesToSelect.size();
+        System.out.println("有如下课程待选: ");
+        for (int i = 0; i <size ; i++) {
+            Course cr = (Course) coursesToSelect.get(i);
+            System.out.println("课程: "+ cr.id +":"+ cr.name);
+        }
+    }
+
+    /*
+    通过迭代器来遍历List
+     */
+
+    public void testIterator(){
+        //通过集合的iterator方法，取得迭代器的实例
+        Iterator it = coursesToSelect.iterator();
+        System.out.println("有如下课程待选(通过迭代器访问): ");
+        while (it.hasNext()){
+            Course cr = (Course) it.next();
+            System.out.println("课程: "+cr.id +":" +cr.name);
+
+        }
+    }
+    /*
+    通过for each方法访问集合元素
+     */
+    public void testForEach(){
+        System.out.println("有如下课程待选(通过foreach访问)");
+        for (Object o : coursesToSelect) {
+            Course cr = (Course) o;
+            System.out.println("课程:" + cr.id +":" +cr.name);
+        }
+
+    }
+
+    /*
+    修改list中的元素
+     */
+    public void testModify(){
+        coursesToSelect.set(4,new Course("7","毛概"));
+    }
+
+    public void testRemove(){
+        Course cr = (Course) coursesToSelect.get(4);
+//        System.out.println("我是课程:" +cr.id +":" +cr.name + "我即将被删除");
+//        coursesToSelect.remove(cr);
+        Course[] courses = {(Course) coursesToSelect.get(4), (Course) coursesToSelect.get(5)};
+        coursesToSelect.removeAll(Arrays.asList(courses));
+        System.out.println("成功删除课程！");
+//        testForEach();
 
     }
 
     public static void main(String[] args) {
         ListTest listTest = new ListTest();
         listTest.testAdd();
+//        listTest.testModify();
+//        listTest.testGet();
+//        listTest.testIterator();
+//        listTest.testRemove();
     }
 }

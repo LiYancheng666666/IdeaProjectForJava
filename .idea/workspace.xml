@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb363ac-aca6-4eb4-9200-19dc3ba53cf5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LogProject/src/com/infor/logs/DealLogFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/LogProject/src/com/infor/logs/DealLogFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ChildCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/TestGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/infor/HelloWorld/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/infor/HelloWorld/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LogProject/com/infor/logs/DealLogFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LogProject/com/infor/logs/DealLogFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imooc_collection_map_demo/com/imooc/collection/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imooc_collection_map_demo/com/imooc/collection/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/imooc_collection_map_demo/com/imooc/collection/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imooc_collection_map_demo/com/imooc/collection/ListTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="150">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -33,8 +34,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="175">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,17 +43,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="200">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#2152#2153#0" expanded="true" />
+                <element signature="e#2211#2212#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestGeneric.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/TestGeneric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#1121#1130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChildCourse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ChildCourse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -84,9 +109,11 @@
         <option value="$PROJECT_DIR$/LogProject/src/com/infor/logs/DealLogFile.java" />
         <option value="$PROJECT_DIR$/LogProject/src/com/infor/file/ReadLogFile.java" />
         <option value="$PROJECT_DIR$/HelloWorld/src/com/infor/HelloWorld/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ListTest.java" />
+        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ChildCourse.java" />
+        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" />
+        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/TestGeneric.java" />
       </list>
     </option>
   </component>
@@ -100,9 +127,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -113,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +176,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListTest">
+  <component name="RunManager" selected="Application.TestGeneric">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.infor.HelloWorld.HelloWorld" />
       <module name="HelloWorld" />
@@ -194,6 +221,17 @@
     </configuration>
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.collection.ListTest" />
+      <module name="imooc_collection_map_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.collection.TestGeneric" />
       <module name="imooc_collection_map_demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -221,17 +259,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.infor.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WriteLogsFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.infor.file.WriteLogsFile" />
-      <module name="LogProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.infor.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,17 +307,17 @@
     <list>
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.TestLogs" />
-      <item itemvalue="Application.WriteLogsFile" />
       <item itemvalue="Application.TestRgex" />
       <item itemvalue="Application.ListTest" />
+      <item itemvalue="Application.TestGeneric" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestGeneric" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.TestLogs" />
         <item itemvalue="Application.TestRgex" />
-        <item itemvalue="Application.WriteLogsFile" />
       </list>
     </recent_temporary>
   </component>
@@ -319,11 +346,12 @@
       <workItem from="1546591120789" duration="192000" />
       <workItem from="1546591338332" duration="2106000" />
       <workItem from="1546691426142" duration="5492000" />
+      <workItem from="1546782991444" duration="5370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24977000" />
+    <option name="totallyTimeSpent" value="30347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,21 +367,21 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32994923" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26226735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38899082" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.14441842" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.14412956" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.500846" side_tool="true" weight="0.16627635" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.500846" side_tool="true" weight="0.16627635" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33027524" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -374,20 +402,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="138" column="69" selection-start-line="138" selection-start-column="69" selection-end-line="138" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LogProject/src/com/infor/file/ReadLogFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -707,39 +721,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" selection-end-line="7" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="175">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="200">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ChildCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/TestGeneric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#1121#1130#0" expanded="true" />
           </folding>
         </state>
       </provider>
