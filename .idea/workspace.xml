@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb363ac-aca6-4eb4-9200-19dc3ba53cf5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/CollectionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/StudentComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/imooc_collection_map_demo/com/imooc/collection/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/imooc_collection_map_demo/com/imooc/collection/MapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/MapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="-378">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
@@ -36,22 +35,19 @@
       <file leaf-file-name="StudentComparator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/StudentComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="175">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectionsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CollectionsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/CollectionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+            <state relative-caret-position="-203">
+              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#524#533#0" expanded="true" />
-                <element signature="e#1433#1441#0" expanded="true" />
-                <element signature="e#2054#2063#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +56,7 @@
       <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Collections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="2600">
               <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
               <folding>
                 <element signature="e#5644#5645#0" expanded="true" />
@@ -70,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="82">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,8 +78,17 @@
       <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8325">
+            <state relative-caret-position="25">
               <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -117,12 +122,12 @@
         <option value="$PROJECT_DIR$/HelloWorld/src/com/infor/HelloWorld/HelloWorld.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ListTest.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/ChildCourse.java" />
-        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/TestGeneric.java" />
-        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/SetTest.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/MapTest.java" />
         <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/CollectionsTest.java" />
+        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java" />
+        <option value="$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java" />
       </list>
     </option>
   </component>
@@ -149,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -185,6 +189,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,12 +368,13 @@
       <workItem from="1546871832213" duration="3530000" />
       <workItem from="1546920470379" duration="3097000" />
       <workItem from="1546957963537" duration="2192000" />
-      <workItem from="1546961454533" duration="576000" />
+      <workItem from="1546961454533" duration="761000" />
+      <workItem from="1547004694633" duration="857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43458000" />
+    <option name="totallyTimeSpent" value="44500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,15 +390,16 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3297561" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44036698" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.2242915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.22834007" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.500846" side_tool="true" weight="0.16627635" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,28 +411,27 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3297561" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.096481875" />
       <window_info id="Structure" order="1" sideWeight="0.500846" side_tool="true" weight="0.16627635" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38829267" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33027524" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32994923" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info id="Favorites" order="3" sideWeight="0.500846" side_tool="true" weight="0.16627635" />
@@ -731,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -752,42 +751,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8325">
-          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/StudentComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="2600">
           <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
           <folding>
             <element signature="e#5644#5645#0" expanded="true" />
@@ -796,16 +762,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/CollectionsTest.java">
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/StudentComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+        <state relative-caret-position="175">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#524#533#0" expanded="true" />
-            <element signature="e#1433#1441#0" expanded="true" />
-            <element signature="e#2054#2063#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/CollectionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc_collection_map_demo/src/com/imooc/collection/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>

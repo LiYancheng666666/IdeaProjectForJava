@@ -76,7 +76,7 @@ public class CollectionsTest {
         for (Student student : studentList) {
             System.out.println("学生：" + student.id + ":" + student.name);
         }
-//        Collections.sort(studentList);
+        Collections.sort(studentList);
         System.out.println("----------------排序后------------------");
         for (Student student : studentList) {
             System.out.println("学生：" + student.id + ":" + student.name);
