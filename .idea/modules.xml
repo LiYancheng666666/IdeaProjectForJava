@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjectForJava.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjectForJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/LogProject/LogProject.iml" filepath="$PROJECT_DIR$/LogProject/LogProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc_collection_map_demo/imooc_collection_map_demo.iml" filepath="$PROJECT_DIR$/imooc_collection_map_demo/imooc_collection_map_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc_imooc/jdbc_imooc.iml" filepath="$PROJECT_DIR$/jdbc_imooc/jdbc_imooc.iml" />
     </modules>
   </component>
 </project>
