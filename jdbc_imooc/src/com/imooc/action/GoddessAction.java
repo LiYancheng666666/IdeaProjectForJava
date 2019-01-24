@@ -6,20 +6,46 @@
 
 package com.imooc.action;
 
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
+
 import com.imooc.dao.GoddessDao;
 import com.imooc.model.Goddess;
 
-import java.util.List;
-
 public class GoddessAction {
 
-    public static void main(String[] args) throws Exception {
+    public void add(Goddess goddess) throws Exception {
+        GoddessDao dao = new GoddessDao();
+        goddess.setSex(1);
+        goddess.setCreate_user("ADMIN");
+        goddess.setUpdate_user("ADMIN");
+        goddess.setIsdel(1);
+        dao.addGoddess(goddess);
+    }
 
-        GoddessDao g = new GoddessDao();
-        List<Goddess> gs =g.query();
-        for (Goddess goddess : gs) {
-            System.out.println(goddess.getUser_name()+","+goddess.getAge());
+    public void edit(Goddess goddess) throws Exception{
+        GoddessDao dao=new GoddessDao();
+        dao.updateGoddess(goddess);
+    }
 
-        }
+    public void del(Integer id) throws SQLException {
+        GoddessDao dao=new GoddessDao();
+        dao.delGoddess(id);
+
+    }
+    public List<Goddess>  query() throws Exception{
+        GoddessDao dao=new GoddessDao();
+        return dao.query();
+    }
+
+    public List<Goddess> query(List<Map<String, Object>> params) throws Exception{
+        GoddessDao dao=new GoddessDao();
+        return dao.query(params);
+    }
+
+    public Goddess get(Integer id) throws SQLException{
+        GoddessDao dao=new GoddessDao();
+        return dao.get(id);
     }
 }
