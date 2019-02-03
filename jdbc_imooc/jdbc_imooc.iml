@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/study/imooc/jdbc/jdbc_imooc/lib/mysql-connector-java-5.0.8.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/mybatis/mysql-connector-java-5.0.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

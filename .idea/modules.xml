@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/LogProject/LogProject.iml" filepath="$PROJECT_DIR$/LogProject/LogProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/imooc_collection_map_demo/imooc_collection_map_demo.iml" filepath="$PROJECT_DIR$/imooc_collection_map_demo/imooc_collection_map_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc_imooc/jdbc_imooc.iml" filepath="$PROJECT_DIR$/jdbc_imooc/jdbc_imooc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis01/mybatis01.iml" filepath="$PROJECT_DIR$/mybatis01/mybatis01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis02/mybatis02.iml" filepath="$PROJECT_DIR$/mybatis02/mybatis02.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mysql5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mybatis01/lib/mysql-connector-java-5.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
