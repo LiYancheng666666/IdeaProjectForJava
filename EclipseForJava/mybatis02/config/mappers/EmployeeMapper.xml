@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 每一个实体类都对应着Mybatis，的一个命名空间，namespace属性值相当于id，如果存在多个，不允许重复-->
+<!-- 命名空间，一般情况下，在当前空间中声明的是.实体类对应的别名-->
+<mapper namespace="com.infor.dao.EmployeeDao">
+
+	<cache></cache>
+	
+    <select id="selAll" resultType="com.infor.bean.Employee">
+        select * from employee
+
+    </select>
+    
+    <resultMap type="com.infor.bean.Employee" id="resultMapSimple">
+    
+    	<!-- id 表示配置主键的封装格式 -->
+    	<id column="id" property="id"/>
+    	<result column="name" property="name"/>
+    	<result column="gender" property="gender"/>
+    	<result column="address" property="address"/>
+    	<result column="d_id" property="dept.d_id"/>
+    	<result column="d_name" property="dept.d_name"/>
+    </resultMap>
+    <!-- column 中的字段写的是select中的别名  property中的字段写pojo中的字段  -->
+    <select id="selAll2" resultMap="resultMapSimple">
+        select e.id id,e.name name,e.gender gender,e.address address,d.d_id d_id,
+        d.d_name d_name from employee e,department d where e.d_id = d.d_id;
+
+    </select>
+    
+    <!-- 使用association 可以使用分步查询 -->
+    <resultMap type="com.infor.bean.Employee" id="resultMapSimple2">
+    
+    	<!-- id 表示配置主键的封装格式 -->
+    	<id column="id" property="id"/>
+    	<result column="name" property="name"/>
+    	<result column="gender" property="gender"/>
+    	<result column="address" property="address"/>
+    	<association property="dept" javaType="com.infor.bean.Department">
+    		<id column="d_id" property="d_id"/>
+    		<result column="d_name" property="d_name"/>
+    	</association>
+    </resultMap>
+    <!-- column 中的字段写的是select中的别名  property中的字段写pojo中的字段  -->
+    <select id="selAll3" resultMap="resultMapSimple2">
+        select e.id id,e.name name,e.gender gender,e.address address,d.d_id d_id,
+        d.d_name d_name from employee e,department d where e.d_id = d.d_id;
+
+    </select>
+    
+	<!--
+	 	分步查询+延迟加载 
+	 	1.首先查询当前员工，得到部门id
+	 	2.通过部门id查询出部门信息
+	 	3.将查询到的部门信息封装到员工对象中
+	 -->
+    <resultMap type="com.infor.bean.Employee" id="selectByStep">
+    
+    	<!-- id 表示配置主键的封装格式 -->
+    	<id column="id" property="id"/>
+    	<result column="name" property="name"/>
+    	<result column="gender" property="gender"/>
+    	<result column="address" property="address"/>
+    	<association property="dept" select="com.infor.dao.DepartmentDao.getDepartmentById" column="d_id">
+    	</association>
+    </resultMap>
+    
+    <select id="selectStep" resultMap="selectByStep">
+    	select * from employee where id = #{id}
+    </select>
+
+    <select id="selOne" resultType="com.infor.bean.Employee">
+        select id,name,gender,address from employee where id = #{id}
+    </select>
+    
+    <insert id="insertEmp" >
+    	insert into employee values(#{id},#{name},#{gender},#{address})
+    </insert>
+    
+    <update id="updateEmp">
+    	update employee set name = #{name},address= #{address}
+    	where id = #{id}
+    </update>
+    
+    <!-- 删除 -->
+    
+    <delete id="deleteEmp">
+    	delete from employee where id = #{id}
+    </delete>
+    
+    <!-- 多条件查询，传入多个参数，String name,char gender -->
+    <select id="queryList" resultType="com.infor.bean.Employee">
+    	<!-- 
+    		#{}默认采用预处理的方式去处理sql语句。。。
+    		${}是采用非预处理模式来处理数据。。。
+    	 -->
+    	select * from employee where name like '${name}%' and gender =#{gender}
+    </select>
+    
+    <!-- 多条件查询，传入多个参数，String name,char gender -->
+    <select id="queryList2" resultType="com.infor.bean.Employee">
+    	select * from employee where name like '${name}%' and gender =#{gender}
+    </select>
+    
+    <!-- 下面是动态sql -->
+    <select id="queryByIf" resultType="com.infor.bean.Employee">
+    	select * from employee where 1=1
+    	<if test="name !=null">
+    		and name like '${name}%'
+    	</if>
+    </select>
+    
+    <!-- 下面是动态sql -->
+    <select id="queryByChoose" resultType="com.infor.bean.Employee">
+    	select * from employee where 1=1
+    	<choose>
+    		<when test="name !=null">
+    			and name like '${name}%'
+    		</when>
+    		<when test="address != null">
+    			and address = ${address}
+    		</when>
+    		<otherwise>
+    			order by name
+    		</otherwise>
+    	</choose>
+    </select>
+    
+    <select id ="queryByTrim" resultType="com.infor.bean.Employee">
+    	select * from employee
+    	<trim prefix="where" prefixOverrides="AND|OR">
+    		<if test="name!=null">
+    			and name like '${name}%'
+    		</if>
+    		<if test="address!=null">
+    			and address = #{address}
+    		</if>
+    	</trim>
+    </select>
+    
+     <select id ="queryByWhere" resultType="com.infor.bean.Employee">
+    	select * from employee
+    	<where>
+    		<if test="name!=null">
+    			name like '${name}%'
+    		</if>
+    		<if test="address!=null">
+    			and address = #{address}
+    		</if>
+    	</where>
+    </select>
+    
+    <delete id="deleteByList">
+    	delete from employee where id in
+    	<foreach collection="list" open="(" separator="," close=")" item="haha">
+    		#{haha}
+    	</foreach>
+    </delete>
+    
+    <delete id="deleteByArray">
+    	delete from employee where id in
+    	<foreach collection="array" open="(" separator="," close=")" item="haha">
+    		#{haha}
+    	</foreach>
+    </delete>
+    
+    
+    
+    
+
+</mapper>
