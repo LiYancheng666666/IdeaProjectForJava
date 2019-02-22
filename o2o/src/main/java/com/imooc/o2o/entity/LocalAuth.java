@@ -10,6 +10,7 @@ public class LocalAuth {
 	private Date createTime;
 	private Date lastEditTime;
 	private PersonInfo personInfo;
+	
 	public Long getLocalAuthId() {
 		return localAuthId;
 	}
