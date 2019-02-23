@@ -3,7 +3,6 @@ package com.imooc.o2o.entity;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.catalina.LifecycleListener;
 
 public class Product {
 	private Long productId;
@@ -102,6 +101,7 @@ public class Product {
 	public void setShop(Shop shop) {
 		this.shop = shop;
 	}
+	
 	
 	
 	

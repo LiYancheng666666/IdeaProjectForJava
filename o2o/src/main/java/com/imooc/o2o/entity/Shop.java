@@ -10,7 +10,7 @@ public class Shop {
 	private String phone;
 	private String shopImg;
 	private Integer priority;
-	private Date creteTime;
+	private Date createTime;
 	private Date lastEditTime;
 	
 	//-1. 不可用 0.审核中 1.可用
@@ -63,11 +63,11 @@ public class Shop {
 	public void setPriority(Integer priority) {
 		this.priority = priority;
 	}
-	public Date getCreteTime() {
-		return creteTime;
+	public Date getCreateTime() {
+		return createTime;
 	}
-	public void setCreteTime(Date creteTime) {
-		this.creteTime = creteTime;
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
 	}
 	public Date getLastEditTime() {
 		return lastEditTime;
@@ -105,6 +105,11 @@ public class Shop {
 	public void setShopCategory(ShopCategory shopCategory) {
 		this.shopCategory = shopCategory;
 	}
+	
+	
+	
+	
+	
 	
 	
 }
