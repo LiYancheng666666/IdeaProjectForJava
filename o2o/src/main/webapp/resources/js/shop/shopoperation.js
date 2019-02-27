@@ -50,6 +50,13 @@ $(function() {
 					formData.append('shopImg', shopImg);
 					formData.append('shopStr', JSON.stringify(shop));
 
+					var verifyCodeActual = $('#j_captcha').val();
+					alert(verifyCodeActual)
+					if (!verifyCodeActual) {
+						$.toast('请输入验证码！');
+						return;
+					}
+					formData.append('verifyCodeActual', verifyCodeActual);
 					$.ajax({
 						url : registerShopUrl,
 						type : 'POST',

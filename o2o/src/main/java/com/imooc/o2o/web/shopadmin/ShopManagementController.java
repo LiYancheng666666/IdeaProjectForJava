@@ -28,6 +28,7 @@ import com.imooc.o2o.exceptions.ShopOperationException;
 import com.imooc.o2o.service.AreaService;
 import com.imooc.o2o.service.ShopCategoryService;
 import com.imooc.o2o.service.ShopService;
+import com.imooc.o2o.util.CodeUtil;
 import com.imooc.o2o.util.HttpServletRequestUtil;
 
 @Controller
@@ -41,13 +42,13 @@ public class ShopManagementController {
 	@Autowired
 	private AreaService areaService;
 
-	@RequestMapping(value="/getshopinitinfo",method=RequestMethod.GET)
+	@RequestMapping(value = "/getshopinitinfo", method = RequestMethod.GET)
 	@ResponseBody
-	private Map<String, Object> getShopInitInfo(){
+	private Map<String, Object> getShopInitInfo() {
 		Map<String, Object> modelMap = new HashMap<String, Object>();
 		List<ShopCategory> shopCategoryList = new ArrayList<ShopCategory>();
 		List<Area> areaList = new ArrayList<Area>();
-		
+
 		try {
 			shopCategoryList = shopCategoryService.getShopCategoryList(new ShopCategory());
 			areaList = areaService.getAreaList();
@@ -59,7 +60,7 @@ public class ShopManagementController {
 			modelMap.put("errMsg", e.getMessage());
 		}
 		return modelMap;
-		
+
 	}
 
 	@RequestMapping(value = "/registershop", method = RequestMethod.POST)
@@ -67,14 +68,20 @@ public class ShopManagementController {
 	private Map<String, Object> registerShop(HttpServletRequest request) {
 
 		Map<String, Object> modelMap = new HashMap<String, Object>();
+		if (!CodeUtil.checkVerifyCode(request)) {
+			modelMap.put("success", false);
+			modelMap.put("errMsg", "输入了错误的验证码！");
+			return modelMap;
+		}
+
 		// 1.接收并转化相应的参数,包括店铺信息以及图片信息
 		String shopStr = HttpServletRequestUtil.getString(request, "shopStr");
-		// 将jason转化为pojo
+		// 将json转化为pojo
 		// 1.先new ObjectMapper实例
 		ObjectMapper mapper = new ObjectMapper();
 		Shop shop = null;
 		try {
-			// 将jason转化为pojo
+			// 将json转化为pojo
 			shop = mapper.readValue(shopStr, Shop.class);
 		} catch (Exception e) {
 			modelMap.put("success", false);
