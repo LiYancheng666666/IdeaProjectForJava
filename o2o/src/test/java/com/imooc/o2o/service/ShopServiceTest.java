@@ -11,6 +11,7 @@ import java.util.Date;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.imooc.o2o.BaseTest;
 import com.imooc.o2o.dto.ShopExecution;
@@ -26,6 +27,18 @@ public class ShopServiceTest extends BaseTest{
 	private ShopService shopService;
 	
 	@Test
+	public void testGetShopList() {
+		Shop shopCondition = new Shop();
+		ShopCategory sc = new ShopCategory();
+		sc.setShopCategoryId(1L);
+		shopCondition.setShopCategory(sc);
+		ShopExecution se = shopService.getShopList(shopCondition, 1, 3);
+		System.out.println("店铺列表数为:" + se.getShopList().size());
+		System.out.println("店铺总数为:" + se.getCount());
+	}
+	
+	@Test
+	@Ignore
 	public void testModifyShop() throws ShopOperationException,FileNotFoundException {
 		Shop shop = new Shop();
 		shop.setShopId(1L);
